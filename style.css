@@ -7,26 +7,38 @@ body {
 
 h1 {
   color: gold;
+  text-align: center;
 }
 
-h2 {
-  font-size: 26px;
-  margin-top: 20px;
+section {
+  margin-top: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.grid div {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 a {
   color: gold;
   text-decoration: none;
-}
-
-div {
-  background: #1a1a1a;
-  padding: 15px;
-  margin-top: 15px;
-  border-radius: 10px;
-}
-
-div:hover {
-  transform: scale(1.03);
-  transition: 0.3s;
 }
