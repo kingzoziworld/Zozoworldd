@@ -1,8 +1,7 @@
-
 body {
   background: #0a0a0a;
   color: white;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   padding: 20px;
 }
 
@@ -10,31 +9,24 @@ h1 {
   color: gold;
 }
 
-.hero {
-  margin-top: 40px;
-}
-
-button {
-  background: gold;
-  border: none;
-  padding: 10px 20px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
-.grid div {
-  background: #1a1a1a;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-.card {
-  background: #1a1a1a;
-  padding: 15px;
+h2 {
+  font-size: 26px;
   margin-top: 20px;
+}
+
+a {
+  color: gold;
+  text-decoration: none;
+}
+
+div {
+  background: #1a1a1a;
+  padding: 15px;
+  margin-top: 15px;
   border-radius: 10px;
+}
+
+div:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
 }
